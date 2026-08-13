@@ -31,12 +31,13 @@ Exemplo:
 ```env
 # usado pela aplicação Python
 database=lh_nautical_database
-user=lighthouse
+user=seu_usuario
+password=sua_senha
 host=localhost
 
 # usado pelo docker-compose
 DB_NAME=lh_nautical_database
-DB_USER=lighthouse
+DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
 DB_PORT=5432
 ```
