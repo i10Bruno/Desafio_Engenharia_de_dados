@@ -1,0 +1,29 @@
+[project]
+name = "desafio"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Bruno alexandre",email = "brunosantosalexandre@hotmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=3.0.5,<4.0.0)",
+    "psycopg2-binary (>=2.9.12,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "sqlalchemy (>=2.0.51,<3.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "python-dateutil (>=2.9.0.post0,<3.0.0)",
+    "scikit-learn (>=1.9.0,<2.0.0)",
+    "datetime (>=6.0,<7.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.3.0,<8.0.0)"
+]
